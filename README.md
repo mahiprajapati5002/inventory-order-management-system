@@ -144,6 +144,7 @@ docker push your-dockerhub-user/inventory-backend:latest
 ## Troubleshooting
 
 - If migrations fail, verify `DATABASE_URL` and PostgreSQL connectivity.
+- Neon connection strings that start with `postgresql://` are supported automatically by the backend.
 - If frontend API calls fail, verify `VITE_API_URL` and backend CORS origins.
 - If Docker backend cannot connect to Postgres, use the Compose service hostname `postgres`.
 
