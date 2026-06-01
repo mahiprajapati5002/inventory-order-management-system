@@ -120,19 +120,26 @@ Tests cover product, customer, and order business rules, including duplicate SKU
 
 1. Create a Neon PostgreSQL database and copy the connection string.
 2. Push this repository to GitHub.
-3. Deploy the backend on Render using `render.yaml`.
+3. Deploy the backend and frontend on Render using `render.yaml`.
 4. Set backend environment variables on Render:
    - `DATABASE_URL`
    - `CORS_ORIGINS`
    - `ENVIRONMENT=production`
-5. Deploy the frontend on Vercel from the `frontend` directory.
-6. Set `VITE_API_URL` in Vercel to the Render backend URL plus `/api/v1`.
+5. Confirm frontend `VITE_API_URL` points to the backend URL plus `/api/v1`.
+6. Optionally deploy the frontend on Vercel from the `frontend` directory.
 7. Build and push the backend Docker image:
 
 ```bash
 docker build -t your-dockerhub-user/inventory-backend:latest ./backend
 docker push your-dockerhub-user/inventory-backend:latest
 ```
+
+## Submission Links
+
+- GitHub Repository: https://github.com/mahiprajapati5002/inventory-order-management-system
+- Backend Docker Hub Image: pending Docker Hub credentials
+- Frontend Live URL: pending Render deployment
+- Backend Live URL: pending Render deployment
 
 ## Troubleshooting
 

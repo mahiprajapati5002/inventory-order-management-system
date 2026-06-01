@@ -23,8 +23,7 @@
 
 ## Links To Fill After Account Deployment
 
-- [ ] GitHub repository link:
+- [x] GitHub repository link: https://github.com/mahiprajapati5002/inventory-order-management-system
 - [ ] Backend Docker Hub image link:
 - [ ] Frontend live URL:
 - [ ] Backend live URL:
-

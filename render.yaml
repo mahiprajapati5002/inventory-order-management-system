@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: inventory-order-backend
+    name: inventory-order-management-backend
     runtime: docker
     rootDir: backend
     plan: free
@@ -9,7 +9,17 @@ services:
       - key: DATABASE_URL
         sync: false
       - key: CORS_ORIGINS
-        sync: false
+        value: https://inventory-order-management-frontend.onrender.com
       - key: ENVIRONMENT
         value: production
 
+  - type: web
+    name: inventory-order-management-frontend
+    runtime: static
+    rootDir: frontend
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://inventory-order-management-backend.onrender.com/api/v1
