@@ -21,13 +21,17 @@
 - Test verification: `6 passed`.
 - GitHub repository: https://github.com/mahiprajapati5002/inventory-order-management-system
 - Render blueprint: backend and frontend services are defined in `render.yaml`.
+- Frontend live URL: https://inventory-order-management-frontend.onrender.com
+- Backend live URL: https://inventory-order-management-backend.onrender.com
+- Backend API docs: https://inventory-order-management-backend.onrender.com/docs
+- Live deployment smoke test: product creation, customer creation, order creation, automatic total calculation, and stock reduction verified on Render + Neon.
 
 ## Local Verification Limits
 
 - Frontend build could not be run because `npm`/`pnpm`/`yarn` were unavailable and `node.exe` returned access denied.
 - Docker Compose could not be run because Docker CLI was unavailable in this shell.
 - GitHub, Docker Hub, Render, Neon, and Vercel publication require the user's account access.
-- Render deployment requires a Render API key or dashboard access, plus a PostgreSQL `DATABASE_URL`.
+- Backend Docker Hub image still requires Docker Hub credentials and a local/CI Docker build-push path.
 
 ## Submission Checklist
 

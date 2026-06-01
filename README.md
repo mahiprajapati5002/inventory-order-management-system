@@ -138,8 +138,9 @@ docker push your-dockerhub-user/inventory-backend:latest
 
 - GitHub Repository: https://github.com/mahiprajapati5002/inventory-order-management-system
 - Backend Docker Hub Image: pending Docker Hub credentials
-- Frontend Live URL: pending Render deployment
-- Backend Live URL: pending Render deployment
+- Frontend Live URL: https://inventory-order-management-frontend.onrender.com
+- Backend Live URL: https://inventory-order-management-backend.onrender.com
+- Backend API Docs: https://inventory-order-management-backend.onrender.com/docs
 
 ## Troubleshooting
 

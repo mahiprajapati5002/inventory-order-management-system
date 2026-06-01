@@ -25,5 +25,5 @@
 
 - [x] GitHub repository link: https://github.com/mahiprajapati5002/inventory-order-management-system
 - [ ] Backend Docker Hub image link:
-- [ ] Frontend live URL:
-- [ ] Backend live URL:
+- [x] Frontend live URL: https://inventory-order-management-frontend.onrender.com
+- [x] Backend live URL: https://inventory-order-management-backend.onrender.com
